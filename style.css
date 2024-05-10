@@ -61,5 +61,12 @@ body {
   /*Hides it from default view*/
   display: none;
 }
+/*Adding colours for background of selected options*/
+.correct {
+  background: #9aeabc;
+}
+.incorrect {
+  background: #ff9393;
+}
 
-/*Continue here : https://youtu.be/PBcqGxrr9g8?si=HV7BEsrzjlG9xRSV&t=689 */
+/*Continue here : https://youtu.be/PBcqGxrr9g8?si=Hbx_dtFYdVC0hPHO&t=1570 */
