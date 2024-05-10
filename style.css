@@ -58,7 +58,8 @@ body {
   margin: 20px auto 0;
   border-radius: 4px;
   cursor: pointer;
-  display: block;
+  /*Hides it from default view*/
+  display: none;
 }
 
-/*Continue here : https://youtu.be/PBcqGxrr9g8?si=vMjxwNAZ6zjRdiLN&t=458 */
+/*Continue here : https://youtu.be/PBcqGxrr9g8?si=HV7BEsrzjlG9xRSV&t=689 */
