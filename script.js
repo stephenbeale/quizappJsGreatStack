@@ -80,9 +80,9 @@ function showQuestion() {
   });
 }
 
+/**Removes all previous answers */
 function resetState() {
-  nextButton.style.display = "none";
-  /**Removes all previous answers */
+  nextButton.style.display = "block";
   while (answerButtons.firstChild) {
     answerButtons.removeChild(answerButtons.firstChild);
   }

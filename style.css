@@ -43,9 +43,13 @@ body {
   cursor: pointer;
   transition: all 0.3s;
 }
-.btn:hover {
+/*Hover only works when button is not disabled*/
+.btn:hover:not([disabled]) {
   background: #222;
   color: #fff;
+}
+.btn:disabled {
+  cursor: no-drop;
 }
 /*Hash here because it is an ID*/
 #next-btn {
